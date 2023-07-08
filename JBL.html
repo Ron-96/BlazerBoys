@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JBL</title>
+    <link rel="stylesheet" type="text/css" href="JBL.css">
+    <style>
+        html,
+        body {
+            background-image: url("data:image/jpeg;base64,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");
+            background-repeat: initial;
+            background-size: 5cm;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+</head>
+
+
+
+
+
+<body>
+    <header>
+        <div>
+            <h1>JBL</h1>
+            <h3>Dare to Listen</h3>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="JBL.html">JBL</a></li>
+                <li><a href="marshal.html">Marshall</a></li>
+                <li><a href="Philips.html">Philips</a></li>
+                <li><a href="ofa.html">OFA</a></li>
+                <li><a href="#">Resto</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+
+            <div class="image-carousel">
+                <img src="JBL.jpg" alt="Image 1">
+                <img src="https://www.worldwidestereo.com/media/W1siZiIsIjIwMjIvMDkvMjEvMTMvMDIvNDAvOTAyLzIwMjIwOTEzX1dFQl9KQkxfUGFydHlCb3hfNzEwX1ZpZGVvX0Rlc2t0b3BfSGVhZGVyLmpwZyJdXQ/20220913-WEB-JBL-PartyBox-710-Video-Desktop-Header.jpg?sha=18d41a795af6499e"
+                    alt="Image 2">
+                <img src="https://kh.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwfd9148fc/pdp/JBL_Flip_6_Lifestyle_01_904x560px.png"
+                    alt="Image 3">
+                <img src="https://www.huemendesign.com/img/work/lifestyle-jblpulse3-design4.jpg" alt="Image 4">
+                <img src="https://static-01.daraz.lk/p/627d4cacf747606b6074ce0f3dea1da7.jpg" alt="Image 5">
+            </div>
+
+        </section>
+        <section class="products">
+            <h2>Featured Products</h2>
+            <div class="product-card">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>Description of Product 1.</p>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>Description of Product 2.</p>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>Description of Product 3.</p>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>Description of Product 1.</p>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>Description of Product 2.</p>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>Description of Product 3.</p>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>Description of Product 1.</p>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>Description of Product 2.</p>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>Description of Product 3.</p>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>Description of Product 1.</p>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>Description of Product 2.</p>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>Description of Product 3.</p>
+                <a href="#">Buy Now</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Connoisseur Electronics. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+
+
+</html>
