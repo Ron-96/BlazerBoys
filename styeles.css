@@ -214,9 +214,11 @@ nav ul li a {
 /* Styles for the products section */
 .products {
     padding: 50px;
+    
 }
 
 .product-card {
+    
     border-radius: 8px;
     border: 0.5px;
     padding: 5px;
