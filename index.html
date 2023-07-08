@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html>
-    <audio autoplay>
+    <audio id="autoplay">
         <source src="AUDIO-2022-04-14-16-07-15.m4a" type="audio/mp4">
+
+        <button onclick="playAudio()">Play Audio</button>
+
+<script>
+  function playAudio() {
+    var audio = document.getElementById("autoplay");
+    audio.play();
+  }
+</script>
        
         Your browser does not support the audio element.
       </audio>
@@ -14,6 +23,7 @@
     <header>
         <div>
             <h1>The Blazer Classic</h1>
+            <button onclick="playAudio()">Play Audio</button>
         </div>
         <nav>
             <ul>
